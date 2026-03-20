@@ -13,18 +13,18 @@ interface SkillSet {
 }
 
 const tools: Tool[] = [
-  { name: 'Figma', icon: Figma, color: 'from-[#6366F1] to-[#A855F7]' },
-  { name: 'FigJam', icon: Layers, color: 'from-[#A855F7] to-[#6366F1]' },
-  { name: 'Adobe Illustrator', icon: Palette, color: 'from-[#8B5CF6] to-[#A855F7]' },
-  { name: 'Photoshop', icon: Image, color: 'from-[#6366F1] to-[#8B5CF6]' },
-  { name: 'Miro', icon: Sparkles, color: 'from-[#A855F7] to-[#6366F1]' },
-  { name: 'AI Tools', icon: Wand2, color: 'from-[#6366F1] to-[#A855F7]' },
+  { name: 'Figma', icon: Figma, color: 'from-[#F24E1E] to-[#A259FF]' },
+  { name: 'Adobe XD', icon: Layers, color: 'from-[#FF61F6] to-[#470137]' },
+  { name: 'Illustrator', icon: Palette, color: 'from-[#FF9A00] to-[#330000]' },
+  { name: 'Photoshop', icon: Image, color: 'from-[#31A8FF] to-[#001E36]' },
+  { name: 'Framer', icon: Wand2, color: 'from-[#0055FF] to-[#000000]' },
+  { name: 'Canva', icon: Sparkles, color: 'from-[#00C4CC] to-[#7D2AE8]' },
 ];
 
 const skills: SkillSet[] = [
-  { category: 'Design', items: ['UI Design', 'UX Research', 'Wireframing', 'Prototyping'] },
-  { category: 'Systems', items: ['Design Systems', 'Component Libraries', 'Design Tokens', 'Documentation'] },
-  { category: 'Collaboration', items: ['User Testing', 'Stakeholder Management', 'Design Reviews', 'Agile/Scrum'] },
+  { category: 'Design', items: ['User Interface Design', 'Interaction Design', 'Visual Design', 'Wireframing', 'Prototyping'] },
+  { category: 'Research', items: ['User Experience Design', 'User Research', 'Usability Testing', 'User Flows', 'Design Systems'] },
+  { category: 'Software', items: ['Figma AI', 'ChatGPT/Gemini', 'Adobe Creative Suite', 'Microsoft Office', 'FigJam/Miro'] },
 ];
 
 export function SkillsTools() {

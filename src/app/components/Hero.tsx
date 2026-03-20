@@ -95,6 +95,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <motion.h1
+            title="UI/UX Designer"
             className="text-6xl md:text-8xl mb-4 bg-gradient-to-r from-[#F8FAFC] via-[#A855F7] to-[#F8FAFC] bg-clip-text text-transparent bg-[length:200%_auto]"
             animate={{
               backgroundPosition: ['0% center', '200% center'],
@@ -162,14 +163,16 @@ export function Hero() {
             </motion.div>
             View Work
           </motion.button>
-          <motion.button
+          <motion.a
+            href="/resume.pdf"
+            download="Manoj_MR_Resume.pdf"
             whileHover={{ scale: 1.05, borderColor: '#A855F7' }}
             whileTap={{ scale: 0.95 }}
             className="px-8 py-4 border-2 border-[#8B5CF6]/30 rounded-full hover:bg-[#1A1A22] transition-all duration-300 flex items-center gap-2"
           >
             <Download className="w-5 h-5" />
             Download Resume
-          </motion.button>
+          </motion.a>
           <motion.a
             href="#contact"
             whileHover={{ scale: 1.05, borderColor: '#A855F7' }}

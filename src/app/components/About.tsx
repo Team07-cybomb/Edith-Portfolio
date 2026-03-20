@@ -10,16 +10,16 @@ interface Experience {
 
 const experience: Experience[] = [
   {
-    title: 'UI/UX Designer',
-    company: 'Cybomb Technologies',
-    period: '2022 - Present',
-    description: 'Designing digital products and design systems for enterprise clients',
+    title: 'UI/UX Designer (Full-time)',
+    company: 'Cybomb Technologies, Chennai',
+    period: '06/2025 - Current',
+    description: 'Designed user interfaces for 20+ web and mobile applications, improving usability and consistency across products. Built and maintained reusable UI components and design systems.',
   },
   {
-    title: 'Previous Experience',
-    company: 'Design Studio',
-    period: '2020 - 2022',
-    description: 'Worked on various mobile and web applications',
+    title: 'UI/UX Design Intern',
+    company: 'Cybomb Technologies, Chennai',
+    period: '11/2024 - 05/2025',
+    description: 'Assisted in designing UI components and layouts for 5+ web and mobile applications. Developed wireframes and prototypes to support product design.',
   },
 ];
 
@@ -277,9 +277,9 @@ export function About() {
                 transition={{ delay: 0.2 }}
                 className="text-gray-300 relative z-10"
               >
-                <h4 className="text-lg mb-1 text-[#F8FAFC]">Design Education</h4>
+                <h4 className="text-lg mb-1 text-[#F8FAFC]">SRM Institute of Hotel Management</h4>
                 <p className="text-gray-400 text-sm">
-                  Specialized training in UI/UX Design, Human-Computer Interaction, and Design Thinking
+                  B.Sc., Hotel Management | Graduated: 01/2025
                 </p>
               </motion.div>
 

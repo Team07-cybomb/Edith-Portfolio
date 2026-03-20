@@ -58,7 +58,7 @@ const solutions: Solution[] = [
 
 export function FeaturedCaseStudy() {
   return (
-    <section className="relative px-6 py-24 bg-gradient-to-b from-transparent via-[#1A1A22]/30 to-transparent">
+    <section id="featured-work" className="relative px-6 py-24 bg-gradient-to-b from-transparent via-[#1A1A22]/30 to-transparent">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -82,7 +82,7 @@ export function FeaturedCaseStudy() {
             viewport={{ once: true }}
             className="text-5xl md:text-6xl mb-4"
           >
-            HRMS Dashboard Redesign
+            HRMS Dashboard designed
           </motion.h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
             Transforming complex HR workflows into an intuitive, efficient management system
@@ -99,9 +99,9 @@ export function FeaturedCaseStudy() {
           className="mb-20 rounded-3xl overflow-hidden border border-[#8B5CF6]/20 shadow-2xl shadow-[#6366F1]/10 relative group"
         >
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1770368787728-73c60309cb42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGRhc2hib2FyZCUyMGNvbXB1dGVyJTIwc2NyZWVufGVufDF8fHx8MTc3MjYyMjk5OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            src="/HRMS-Dashboard.png"
             alt="HRMS Dashboard"
-            className="w-full h-96 md:h-[600px] object-cover transition-transform duration-700 group-hover:scale-105"
+            className="w-full h-96 md:h-[600px] object-cover object-top transition-transform duration-700 group-hover:scale-105"
           />
           <motion.div
             className="absolute inset-0 bg-gradient-to-t from-[#0F0F13]/80 via-transparent to-transparent"

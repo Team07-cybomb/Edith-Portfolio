@@ -11,8 +11,11 @@ const firebaseConfig = {
   measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
+import { getFirestore } from "firebase/firestore";
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
 // Initialize Analytics conditionally (only in browser and if supported)
 let analytics;
@@ -24,4 +27,4 @@ if (typeof window !== "undefined") {
   });
 }
 
-export { app, analytics };
+export { app, analytics, db };
