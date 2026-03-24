@@ -34,13 +34,14 @@ const projects: Project[] = [
   // },
   {
     id: 3,
-    title: 'Design System Framework',
-    description: 'Scalable design system with reusable components and patterns',
+    title: 'HRMS Dashboard',
+    description: 'HRMS Pro is a modern Human Resource Management System dashboard designed to help organizations efficiently manage employees, attendance, payroll, recruitment, and performance analytics in one centralized platform',
     image: '/hrms-pro.png',
-    tags: ['Design System', 'Components', 'Tokens'],
+    tags: ['Design System', 'Components', 'Charts'],
     figmaLink: 'https://www.figma.com/proto/jsibxHMq9sImobRrzypyS3/CYBOMB?node-id=2102-12147&t=lPIoLgVLTEvHGCtt-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=130%3A2421&show-proto-sidebar=1',
     behanceLink: 'https://www.behance.net/gallery/245888973/HRMS-Pro-Modern-HR-Management-Dashboard?platform=direct',
   },
+  
   {
     id: 4,
     title: 'E-commerce Platform',
